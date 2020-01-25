@@ -1,0 +1,112 @@
+//variabel
+$font-abuabu: #828282
+$font-itam: #000
+$font-tebal: bold
+$background-abuabu: #F6F6F6
+$background-itam: #000
+$font-putih: #fff
+    
+    
+body
+    .container
+        display: grid
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr
+        grid-template-rows: auto
+        grid-gap: 30px 10px
+        .grid1
+            grid-column: 2 / span 3
+            .div1
+                display: grid
+                grid-template-rows: auto auto 1fr
+                .menu
+                    ul
+                        display: flex
+                        justify-content: space-between
+                        margin-left: -40px
+                        li
+                            list-style: none
+                            a
+                                color: $font-abuabu 
+                                text-decoration: none    
+                hr
+                    clear: left
+                .profil
+                    display: flex
+                    align-items: center
+                    h2
+                        margin-right: 90px
+                .image
+                    img
+                        height: 250px
+                        width: 100%
+        .grid2
+            text-align: center
+            padding: 20px 0
+            background-color: $background-abuabu
+            grid-column: 1/ span 5
+            display: grid
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr
+            .about
+                grid-column: 2 / span 3
+        .grid3
+            text-align: center
+            justify-items: center
+            padding: 20px 0
+            grid-column: 1/ span 5
+            display: grid
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr
+            .skill
+                grid-column: 2 / span 3
+                .figure
+                    display: grid
+                    padding: 0 100px
+                    grid-template-columns: 1fr 1fr 1fr
+                    grid-template-areas: "satu dua tiga"
+                    figcaption
+                        color: $font-abuabu
+                        font-style: $font-tebal
+                    .js
+                        margin-left: -20px
+                    .btg
+                        width: 50px
+                        
+                    .satu
+                        width: 50px
+                        grid-area: satu
+                    .dua
+                        width: 50px
+                        grid-area: dua
+                    .tiga
+                        width: 50px
+                        grid-area: tiga
+                    .img
+                        width: 50px
+                        height: 40px
+        .grid4
+            text-align: center
+            padding: 20px 0
+            background-color: $background-abuabu
+            grid-column: 1/ span 5
+            display: grid
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr
+            .contact
+                grid-column: 2 / span 3
+                ul
+                    display: flex
+                    justify-content: center
+                    margin-left: -40px
+                    li
+                        padding: 1em
+                        list-style: none
+                button
+                    border-radius: 20px
+                    padding: 5px 10px
+                    background-color: $background-itam
+                    a
+                        color: $font-putih
+                        text-decoration: none
+                img
+                    width: 20px
+                    height: 20px
+                .like
+                    color: $font-abuabu

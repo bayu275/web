@@ -1,0 +1,131 @@
+body .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-gap: 30px 10px;
+}
+body .container .grid1 {
+  grid-column: 2/span 3;
+}
+body .container .grid1 .div1 {
+  display: grid;
+  grid-template-rows: auto auto 1fr;
+}
+body .container .grid1 .div1 .menu ul {
+  display: flex;
+  justify-content: space-between;
+  margin-left: -40px;
+}
+body .container .grid1 .div1 .menu ul li {
+  list-style: none;
+}
+body .container .grid1 .div1 .menu ul li a {
+  color: #828282;
+  text-decoration: none;
+}
+body .container .grid1 .div1 hr {
+  clear: left;
+}
+body .container .grid1 .div1 .profil {
+  display: flex;
+  align-items: center;
+}
+body .container .grid1 .div1 .profil h2 {
+  margin-right: 90px;
+}
+body .container .grid1 .div1 .image img {
+  height: 250px;
+  width: 100%;
+}
+body .container .grid2 {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #F6F6F6;
+  grid-column: 1/span 5;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+body .container .grid2 .about {
+  grid-column: 2/span 3;
+}
+body .container .grid3 {
+  text-align: center;
+  justify-items: center;
+  padding: 20px 0;
+  grid-column: 1/span 5;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+body .container .grid3 .skill {
+  grid-column: 2/span 3;
+}
+body .container .grid3 .skill .figure {
+  display: grid;
+  padding: 0 100px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: "satu dua tiga";
+}
+body .container .grid3 .skill .figure figcaption {
+  color: #828282;
+  font-style: bold;
+}
+body .container .grid3 .skill .figure .js {
+  margin-left: -20px;
+}
+body .container .grid3 .skill .figure .btg {
+  width: 50px;
+}
+body .container .grid3 .skill .figure .satu {
+  width: 50px;
+  grid-area: satu;
+}
+body .container .grid3 .skill .figure .dua {
+  width: 50px;
+  grid-area: dua;
+}
+body .container .grid3 .skill .figure .tiga {
+  width: 50px;
+  grid-area: tiga;
+}
+body .container .grid3 .skill .figure .img {
+  width: 50px;
+  height: 40px;
+}
+body .container .grid4 {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #F6F6F6;
+  grid-column: 1/span 5;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+body .container .grid4 .contact {
+  grid-column: 2/span 3;
+}
+body .container .grid4 .contact ul {
+  display: flex;
+  justify-content: center;
+  margin-left: -40px;
+}
+body .container .grid4 .contact ul li {
+  padding: 1em;
+  list-style: none;
+}
+body .container .grid4 .contact button {
+  border-radius: 20px;
+  padding: 5px 10px;
+  background-color: #000;
+}
+body .container .grid4 .contact button a {
+  color: #fff;
+  text-decoration: none;
+}
+body .container .grid4 .contact img {
+  width: 20px;
+  height: 20px;
+}
+body .container .grid4 .contact .like {
+  color: #828282;
+}
+
+/*# sourceMappingURL=testsass.css.map */

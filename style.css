@@ -224,5 +224,13 @@ nav :hover {
     margin-left: -30px;
   }
 }
+@media screen and (max-width: 667px) {
+  body footer div {
+    width: 50%;
+  }
+  body footer div ul {
+    margin-left: -10px;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */

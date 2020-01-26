@@ -65,6 +65,7 @@ body
             margin: 50px auto
             width: 80%
             text-align: center
+            line-height: 1.8
             h3
                 color: #e34646
                 font-size: 25px
@@ -84,7 +85,7 @@ body
             p
                 font-size: 16px
                 text-align: center
-                line-height: 1,5
+                line-height: 1.5
             h3
                 text-align: center
         h2
@@ -126,5 +127,65 @@ nav
         a
             font-weight: bold
             color: #E34646
-        :hover
-            color: #e34646
+    :hover
+        color: #e34646
+
+@media screen and ( max-width: 780px )
+    body
+        header
+            nav
+                width: 100%
+                ul
+                    float: none
+                    margin: 0
+                    display: block
+                    padding: 0
+                    li
+                        a
+                            text-align: center
+                    .active
+                        border-bottom: 2px solid #b53c3c
+            .logo
+                width: 100%
+                p
+                    margin: 0 auto
+                    text-align: center
+        main
+            .heroes
+                h1
+                    font-size: 27px
+                    padding: 6em 0 0
+                p
+                    font-size: 16px
+                    letter-spacing: 1px
+                    line-height: 1.5
+                button
+                    width: fit-content
+                    padding: 0 20px
+                    display: block
+                    margin: 0 auto
+        article
+            .about
+                width: 100%
+                div
+                    width: 80%
+                    margin: 0 auto
+                    p
+                        font-size: 16px
+                        line-height: 1.5
+        .kontainer-1
+            .boxes
+                grid-template-columns: 1fr
+                .box
+                    img
+                        width:60%
+                        display: block
+                        margin: 0 auto
+                    p
+                        width: 60%
+                        display: block
+                        margin: 0 auto
+        footer
+            div
+                ul
+                    margin-left: -30px

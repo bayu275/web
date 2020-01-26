@@ -1,137 +1,161 @@
-body .container {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: auto;
-  grid-gap: 30px 10px;
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "helvetica";
+  /*background here*/
 }
-body .container .grid1 {
-  grid-column: 2/span 3;
-}
-body .container .grid1 .div1 {
-  display: grid;
-  grid-template-rows: auto auto 1fr;
-}
-body .container .grid1 .div1 .menu ul {
-  display: flex;
-  justify-content: space-between;
-  margin-left: -40px;
-}
-body .container .grid1 .div1 .menu ul li {
-  list-style: none;
-}
-body .container .grid1 .div1 .menu ul li a {
-  color: #828282;
-  text-decoration: none;
-}
-body .container .grid1 .div1 hr {
-  clear: left;
-}
-body .container .grid1 .div1 .profil {
-  display: flex;
-  align-items: center;
-}
-body .container .grid1 .div1 .profil h2 {
-  margin-right: 90px;
-}
-body .container .grid1 .div1 .image img {
-  height: 250px;
+body header {
   width: 100%;
 }
-body .container .grid2 {
-  text-align: center;
-  padding: 20px 0;
-  background-color: #F6F6F6;
-  grid-column: 1/span 5;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+body header nav {
+  width: 80%;
+  margin: 0 auto;
+  min-height: 70px;
+  background-color: #fff;
 }
-body .container .grid2 .about {
-  grid-column: 2/span 3;
-}
-body .container .grid3 {
-  text-align: center;
-  justify-items: center;
-  padding: 20px 0;
-  grid-column: 1/span 5;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-}
-body .container .grid3 .skill {
-  grid-column: 2/span 3;
-}
-body .container .grid3 .skill .figure {
-  display: grid;
-  padding: 0 100px;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-areas: "satu dua tiga";
-}
-body .container .grid3 .skill .figure figcaption {
-  color: #828282;
-  font-style: bold;
-}
-body .container .grid3 .skill .figure .js {
-  margin-left: -20px;
-}
-body .container .grid3 .skill .figure .btg {
-  width: 50px;
-}
-body .container .grid3 .skill .figure .satu {
-  width: 50px;
-  grid-area: satu;
-}
-body .container .grid3 .skill .figure .dua {
-  width: 50px;
-  grid-area: dua;
-}
-body .container .grid3 .skill .figure .tiga {
-  width: 50px;
-  grid-area: tiga;
-}
-body .container .grid3 .skill .figure .img {
-  width: 50px;
-  height: 40px;
-}
-body .container .grid4 {
-  text-align: center;
-  padding: 20px 0;
-  background-color: #F6F6F6;
-  grid-column: 1/span 5;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-}
-body .container .grid4 .contact {
-  grid-column: 2/span 3;
-}
-body .container .grid4 .contact ul {
+body header nav ul {
+  float: right;
+  margin: 0;
   display: flex;
-  justify-content: center;
-  margin-left: -40px;
 }
-body .container .grid4 .contact ul li {
-  padding: 1em;
+body header nav ul li {
   list-style: none;
+  padding: 0 20px;
 }
-body .container .grid4 .contact button {
-  border-radius: 20px;
-  padding: 5px 10px;
+body header nav ul li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 17px;
+  line-height: 70px;
+  display: block;
+}
+body header .logo {
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 70px;
+  display: inline-block;
+}
+body header .logo p {
+  margin: 0;
+}
+body main {
+  width: 100%;
+  background: url("img/fotosaya.jpg") -170px;
+  height: 500px;
+  margin-top: 0;
+}
+body main .heroes {
+  width: 100%;
+  height: 500px;
+  z-index: 1;
+}
+body main .heroes button {
+  width: 150px;
+  height: 50px;
+  background: #E34646;
+  border: none;
+  outline: none;
+  color: #fff;
+  display: block;
+  margin: 10px auto;
+}
+body main .heroes h1 {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 4em;
+  color: #fff;
+  text-align: center;
+  font-size: 35px;
+}
+body main .heroes p {
+  width: 80%;
+  margin: 20px auto;
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+}
+body article .about {
+  margin: 50px auto;
+  width: 80%;
+  text-align: center;
+}
+body article .about h3 {
+  color: #e34646;
+  font-size: 25px;
+}
+body .kontainer-1 {
+  width: 100%;
+  padding: 2em 0;
+  background: #EDEBEB;
+}
+body .kontainer-1 .boxes {
+  width: 80%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+body .kontainer-1 .boxes img {
+  width: 100%;
+  height: auto;
+}
+body .kontainer-1 .boxes p {
+  font-size: 16px;
+  text-align: center;
+  line-height: 1, 5;
+}
+body .kontainer-1 .boxes h3 {
+  text-align: center;
+}
+body .kontainer-1 h2 {
+  text-align: center;
+  margin-top: 0;
+  color: #e34646;
+}
+body footer {
+  width: 100%;
+  min-height: 50px;
+  padding: 1em 0;
+  text-align: center;
+}
+body footer p {
+  padding: 10px 0;
+  margin: 0;
+  display: block;
+}
+body footer button {
+  border-radius: 10px;
+  padding: 3px 5px;
   background-color: #000;
 }
-body .container .grid4 .contact button a {
+body footer button a {
   color: #fff;
   text-decoration: none;
 }
-body .container .grid4 .contact img {
-  width: 20px;
-  height: 20px;
+body footer div {
+  box-sizing: border-box;
+  width: 40%;
+  margin: auto;
 }
-body .container .grid4 .contact .like {
+body footer div ul {
+  margin-left: 88px;
+  list-style: none;
+  display: flex;
+}
+body footer div ul li {
+  padding: 0 15px;
+}
+body footer .like {
+  font-size: 14px;
   color: #828282;
 }
 
-@media all and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
-  body {
-    background: #000;
-  }
+nav .active a {
+  font-weight: bold;
+  color: #E34646;
+}
+nav .active :hover {
+  color: #e34646;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -108,27 +108,28 @@ body
             a
                 color: #fff
                 text-decoration: none
-        div
-            box-sizing: border-box
-            width: 40%
-            margin: auto
-            ul
-                margin-left: 88px
-                list-style: none
-                display: flex
-                li
-                    padding: 0 15px
+        section
+            padding: 15px 0
+            margin: 0 auto
+            width: 20%
+            display: grid
+            grid-template-columns: repeat( 3, 1fr )
+            img
+                margin: 0 auto
         .like
-            font-size: 14px
+            font-size: 12px
             color: #828282
 
+.active
+    font-weight: bold
+    a
+        color: #E34646
 nav
-    .active
+    ul
         a
-            font-weight: bold
-            color: #E34646
-    :hover
-        color: #e34646
+        :hover
+            color: #e34646
+
 
 @media screen and ( max-width: 780px )
     body
@@ -185,14 +186,3 @@ nav
                         width: 60%
                         display: block
                         margin: 0 auto
-        footer
-            div
-                ul
-                    margin-left: -30px
-@media screen and ( max-width: 667px )
-    body
-        footer
-            div
-                width: 50%
-                ul
-                    margin-left: -10px

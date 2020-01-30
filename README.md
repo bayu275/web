@@ -1,4 +1,2 @@
-# web
-webportofio
-mencoba fetch atau pull
-test sekali lagi
+Belajar mengembangkan website statis menjadi dinamis
+saya sangat berterimakasih jika kawan kawan semua ada yang berkontribusi

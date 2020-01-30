@@ -157,8 +157,14 @@ body footer .like {
   color: #E34646;
 }
 
-nav ul :hover {
+body header nav :hover {
+  cursor: pointer;
+}
+body header nav ul :hover {
   color: #e34646;
+}
+body article .about :hover {
+  cursor: pointer;
 }
 
 @media screen and (max-width: 780px) {

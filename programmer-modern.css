@@ -107,6 +107,8 @@ body .menublog nav .kontainer table {
 body .menublog nav .kontainer table input {
   height: 100%;
   border: none;
+  outline: none;
+  color: #000;
 }
 body .container {
   width: 100%;

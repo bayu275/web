@@ -240,4 +240,67 @@ nav ul :hover {
   margin: 10px auto;
 }
 
+@media screen and (max-width: 780px) {
+  body header nav {
+    width: 100%;
+  }
+  body header nav ul {
+    float: none;
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+  body header nav ul .blog {
+    border-bottom: 2px solid #b53c3c;
+  }
+  body header nav ul li a {
+    text-align: center;
+  }
+  body header nav .logo {
+    width: 100%;
+  }
+  body header nav .logo p {
+    text-align: center;
+  }
+  body header section {
+    width: 100%;
+  }
+  body header section h1 {
+    font-size: 30px;
+  }
+  body header section p {
+    font-size: 15px;
+  }
+  body .menublog nav .kontainer p {
+    font-size: 18px;
+  }
+  body .menublog nav .kontainer ul a {
+    font-size: 10px;
+  }
+  body .menublog nav .kontainer ul table {
+    display: none;
+  }
+  body .container .boxes {
+    display: block;
+  }
+  body .container .boxes .container-box {
+    padding: 0;
+    padding-top: 40px;
+  }
+  body .container .boxes .container-box .box {
+    margin: 0 auto;
+  }
+  body .container .boxes .container-box .box3 {
+    display: none;
+  }
+}
+@media screen and (max-width: 666px) {
+  .menublog nav .kontainer p {
+    font-size: 18px;
+  }
+  .menublog nav .kontainer ul a {
+    font-size: 5px;
+  }
+}
+
 /*# sourceMappingURL=programmer-modern.css.map */
